@@ -46,7 +46,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
@@ -71,6 +72,5 @@
   },
   "bugs": {
     "url": "https://github.com/BoyWithSilverWings/gatsby-blog-starter/issues"
-  },
-  "deploy:github": "npm run build && node ./scripts/deploy-github"
+  }
 }

@@ -1,0 +1,1109 @@
+{
+  "expireTime": 9007200810434817000,
+  "key": "transformer-remark-markdown-html-ast-2ff06441815f05c7dfe125e86928d8ab-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypantsgatsby-remark-reading-time-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "De Web Graphics Library is een Javascript API die instaat voor het renderen van interactive 2D en 3D graphics binnen de webbrowser zonder dat plugins vereist worden. Dit wordt mogelijk gemaakt doordat de API sterk lijkt op de OpenGL API die op zijn beurt gebruikt kan worden binnen de html 5 canvas elementen. Lees verder als je meer te weten wilt komen over hoe we WebGL gaan implementeren.",
+            "position": {
+              "start": { "line": 2, "column": 1, "offset": 1 },
+              "end": { "line": 2, "column": 392, "offset": 392 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 392, "offset": 392 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Instructies opdracht",
+            "position": {
+              "start": { "line": 4, "column": 4, "offset": 397 },
+              "end": { "line": 4, "column": 24, "offset": 417 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 394 },
+          "end": { "line": 4, "column": 24, "offset": 417 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Implementeren van de verschillende bewerkingen met betrekking tot Lineaire Algebra voor Computergrafiek:",
+                    "position": {
+                      "start": { "line": 6, "column": 3, "offset": 421 },
+                      "end": { "line": 6, "column": 107, "offset": 525 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 6, "column": 3, "offset": 421 },
+                  "end": { "line": 6, "column": 107, "offset": 525 }
+                }
+              },
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "blockquote",
+                "properties": {},
+                "children": [
+                  { "type": "text", "value": "\n" },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "strong",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "vectoren",
+                            "position": {
+                              "start": {
+                                "line": 8,
+                                "column": 7,
+                                "offset": 533
+                              },
+                              "end": { "line": 8, "column": 15, "offset": 541 }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 8, "column": 5, "offset": 531 },
+                          "end": { "line": 8, "column": 17, "offset": 543 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": ": norm, normalisatie, som, verschil, vermenigvuldiging (scalaire vermenigvuldiging, inwendig product, uitwendig product)",
+                        "position": {
+                          "start": { "line": 8, "column": 17, "offset": 543 },
+                          "end": { "line": 8, "column": 137, "offset": 663 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 8, "column": 5, "offset": 531 },
+                      "end": { "line": 8, "column": 137, "offset": 663 }
+                    }
+                  },
+                  { "type": "text", "value": "\n" }
+                ],
+                "position": {
+                  "start": { "line": 8, "column": 3, "offset": 529 },
+                  "end": { "line": 8, "column": 137, "offset": 663 }
+                }
+              },
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "blockquote",
+                "properties": {},
+                "children": [
+                  { "type": "text", "value": "\n" },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "strong",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "matrices",
+                            "position": {
+                              "start": {
+                                "line": 10,
+                                "column": 7,
+                                "offset": 671
+                              },
+                              "end": { "line": 10, "column": 15, "offset": 679 }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 10, "column": 5, "offset": 669 },
+                          "end": { "line": 10, "column": 17, "offset": 681 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": ": som, verschil, vermenigvuldiging, identiteitsmatrix, inverse matrix, getransponeerde matrix",
+                        "position": {
+                          "start": { "line": 10, "column": 17, "offset": 681 },
+                          "end": { "line": 10, "column": 110, "offset": 774 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 10, "column": 5, "offset": 669 },
+                      "end": { "line": 10, "column": 110, "offset": 774 }
+                    }
+                  },
+                  { "type": "text", "value": "\n" }
+                ],
+                "position": {
+                  "start": { "line": 10, "column": 3, "offset": 667 },
+                  "end": { "line": 10, "column": 110, "offset": 774 }
+                }
+              },
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "blockquote",
+                "properties": {},
+                "children": [
+                  { "type": "text", "value": "\n" },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "strong",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "vector als matrix",
+                            "position": {
+                              "start": {
+                                "line": 12,
+                                "column": 7,
+                                "offset": 782
+                              },
+                              "end": { "line": 12, "column": 24, "offset": 799 }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 12, "column": 5, "offset": 780 },
+                          "end": { "line": 12, "column": 26, "offset": 801 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": ": kolommatrix (m x 1), rijmatrix (1 x n), homogene coördinaten",
+                        "position": {
+                          "start": { "line": 12, "column": 26, "offset": 801 },
+                          "end": { "line": 12, "column": 88, "offset": 863 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 12, "column": 5, "offset": 780 },
+                      "end": { "line": 12, "column": 88, "offset": 863 }
+                    }
+                  },
+                  { "type": "text", "value": "\n" }
+                ],
+                "position": {
+                  "start": { "line": 12, "column": 3, "offset": 778 },
+                  "end": { "line": 12, "column": 88, "offset": 863 }
+                }
+              },
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "blockquote",
+                "properties": {},
+                "children": [
+                  { "type": "text", "value": "\n" },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "strong",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "3D transformatiematrices",
+                            "position": {
+                              "start": {
+                                "line": 14,
+                                "column": 7,
+                                "offset": 871
+                              },
+                              "end": { "line": 14, "column": 31, "offset": 895 }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 14, "column": 5, "offset": 869 },
+                          "end": { "line": 14, "column": 33, "offset": 897 }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": ": schaalmatrix, Eulerrotatiematrices, translatiematrix, volgorde van de transformaties",
+                        "position": {
+                          "start": { "line": 14, "column": 33, "offset": 897 },
+                          "end": { "line": 14, "column": 119, "offset": 983 }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 14, "column": 5, "offset": 869 },
+                      "end": { "line": 14, "column": 119, "offset": 983 }
+                    }
+                  },
+                  { "type": "text", "value": "\n" }
+                ],
+                "position": {
+                  "start": { "line": 14, "column": 3, "offset": 867 },
+                  "end": { "line": 14, "column": 119, "offset": 983 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 419 },
+              "end": { "line": 15, "column": 1, "offset": 984 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Per klasse een testklasse aanmaken waarmee we de functionaliteit van de klasse gaan testen. Wanneer na de test de output overeenkomt met het verwachte resultaat is de test geslaagd.",
+                    "position": {
+                      "start": { "line": 16, "column": 3, "offset": 987 },
+                      "end": { "line": 16, "column": 184, "offset": 1168 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 16, "column": 3, "offset": 987 },
+                  "end": { "line": 16, "column": 184, "offset": 1168 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 16, "column": 1, "offset": 985 },
+              "end": { "line": 17, "column": 1, "offset": 1169 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Doel van deze testen: nagaan na elke wijziging of het programma nog naar behoren werkt.",
+                    "position": {
+                      "start": { "line": 18, "column": 3, "offset": 1172 },
+                      "end": { "line": 18, "column": 90, "offset": 1259 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 18, "column": 3, "offset": 1172 },
+                  "end": { "line": 18, "column": 90, "offset": 1259 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 18, "column": 1, "offset": 1170 },
+              "end": { "line": 18, "column": 90, "offset": 1259 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 419 },
+          "end": { "line": 18, "column": 90, "offset": 1259 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Aanpak",
+            "position": {
+              "start": { "line": 20, "column": 4, "offset": 1264 },
+              "end": { "line": 20, "column": 10, "offset": 1270 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 20, "column": 1, "offset": 1261 },
+          "end": { "line": 20, "column": 10, "offset": 1270 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Van zodra de DOM klaar is maken we een nieuwe applicatie aan. Bovenaan importeren we onze ",
+                "position": {
+                  "start": { "line": 22, "column": 3, "offset": 1274 },
+                  "end": { "line": 22, "column": 93, "offset": 1364 }
+                }
+              },
+              {
+                "type": "raw",
+                "value": "<code class=\"language-text\">Application</code>",
+                "position": {
+                  "start": { "line": 22, "column": 93, "offset": 1364 },
+                  "end": { "line": 22, "column": 106, "offset": 1377 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " klasse die dan een instantie aanmaakt.",
+                "position": {
+                  "start": { "line": 22, "column": 106, "offset": 1377 },
+                  "end": { "line": 22, "column": 145, "offset": 1416 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 22, "column": 1, "offset": 1272 },
+              "end": { "line": 22, "column": 145, "offset": 1416 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 22, "column": 1, "offset": 1272 },
+          "end": { "line": 22, "column": 145, "offset": 1416 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">import</span> Application <span class=\"token keyword\">from</span> <span class=\"token string\">'./Application.js'</span><span class=\"token punctuation\">;</span>\nwindow<span class=\"token punctuation\">.</span><span class=\"token function\">addEventListener</span><span class=\"token punctuation\">(</span><span class=\"token string\">'DOMContentLoaded'</span><span class=\"token punctuation\">,</span> _ <span class=\"token operator\">=></span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">Application</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">,</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></code></pre></div>",
+        "position": {
+          "start": { "line": 24, "column": 1, "offset": 1418 },
+          "end": { "line": 27, "column": 4, "offset": 1546 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<br>",
+        "position": {
+          "start": { "line": 28, "column": 1, "offset": 1547 },
+          "end": { "line": 28, "column": 5, "offset": 1551 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "In onderstaand voorbeeld een overzicht van de structuur van onze ",
+                "position": {
+                  "start": { "line": 30, "column": 3, "offset": 1555 },
+                  "end": { "line": 30, "column": 68, "offset": 1620 }
+                }
+              },
+              {
+                "type": "raw",
+                "value": "<code class=\"language-text\">Application</code>",
+                "position": {
+                  "start": { "line": 30, "column": 68, "offset": 1620 },
+                  "end": { "line": 30, "column": 81, "offset": 1633 }
+                }
+              },
+              {
+                "type": "text",
+                "value": " klasse.",
+                "position": {
+                  "start": { "line": 30, "column": 81, "offset": 1633 },
+                  "end": { "line": 30, "column": 89, "offset": 1641 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 30, "column": 1, "offset": 1553 },
+              "end": { "line": 30, "column": 91, "offset": 1643 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 30, "column": 1, "offset": 1553 },
+          "end": { "line": 30, "column": 91, "offset": 1643 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> <span class=\"token keyword\">class</span> <span class=\"token class-name\">Application</span> <span class=\"token punctuation\">{</span>\n  <span class=\"token function\">constructor</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token keyword\">const</span> tests <span class=\"token operator\">=</span> <span class=\"token boolean\">false</span><span class=\"token punctuation\">;</span>\n    <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>tests<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n      <span class=\"token keyword\">new</span> <span class=\"token class-name\">Tests</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n    <span class=\"token punctuation\">}</span>\n    console<span class=\"token punctuation\">.</span><span class=\"token function\">info</span><span class=\"token punctuation\">(</span><span class=\"token string\">'WebGL2 Demo'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n    <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>shaderSources <span class=\"token operator\">=</span> <span class=\"token punctuation\">{</span>\n      fragment<span class=\"token punctuation\">:</span> <span class=\"token keyword\">null</span><span class=\"token punctuation\">,</span>\n      vertex<span class=\"token punctuation\">:</span> <span class=\"token keyword\">null</span><span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">}</span><span class=\"token punctuation\">;</span>\n    <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span><span class=\"token function\">preloader</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>",
+        "position": {
+          "start": { "line": 32, "column": 1, "offset": 1645 },
+          "end": { "line": 47, "column": 4, "offset": 1911 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Binnen de constructor kijken we of er tests zijn, indien ja dan worden deze uitgevoerd.",
+                    "position": {
+                      "start": { "line": 49, "column": 3, "offset": 1915 },
+                      "end": { "line": 49, "column": 90, "offset": 2002 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 49, "column": 3, "offset": 1915 },
+                  "end": { "line": 49, "column": 90, "offset": 2002 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 49, "column": 1, "offset": 1913 },
+              "end": { "line": 50, "column": 1, "offset": 2003 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "De ",
+                    "position": {
+                      "start": { "line": 51, "column": 3, "offset": 2006 },
+                      "end": { "line": 51, "column": 6, "offset": 2009 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">Test</code>",
+                    "position": {
+                      "start": { "line": 51, "column": 6, "offset": 2009 },
+                      "end": { "line": 51, "column": 12, "offset": 2015 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " files worden bovenaan ingeladen met ",
+                    "position": {
+                      "start": { "line": 51, "column": 12, "offset": 2015 },
+                      "end": { "line": 51, "column": 49, "offset": 2052 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">import Tests from &#39;./Tests/Tests.js&#39;</code>",
+                    "position": {
+                      "start": { "line": 51, "column": 49, "offset": 2052 },
+                      "end": { "line": 51, "column": 87, "offset": 2090 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 51, "column": 3, "offset": 2006 },
+                  "end": { "line": 51, "column": 87, "offset": 2090 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 51, "column": 1, "offset": 2004 },
+              "end": { "line": 52, "column": 1, "offset": 2091 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "De shadersources worden initieel op ",
+                    "position": {
+                      "start": { "line": 53, "column": 3, "offset": 2094 },
+                      "end": { "line": 53, "column": 39, "offset": 2130 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">null</code>",
+                    "position": {
+                      "start": { "line": 53, "column": 39, "offset": 2130 },
+                      "end": { "line": 53, "column": 45, "offset": 2136 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " gezet. Hierna zal ",
+                    "position": {
+                      "start": { "line": 53, "column": 45, "offset": 2136 },
+                      "end": { "line": 53, "column": 64, "offset": 2155 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">preloader()</code>",
+                    "position": {
+                      "start": { "line": 53, "column": 64, "offset": 2155 },
+                      "end": { "line": 53, "column": 77, "offset": 2168 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " de shadersources ophalen. Zie onderstaand codefragment.",
+                    "position": {
+                      "start": { "line": 53, "column": 77, "offset": 2168 },
+                      "end": { "line": 53, "column": 133, "offset": 2224 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 53, "column": 3, "offset": 2094 },
+                  "end": { "line": 53, "column": 133, "offset": 2224 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 53, "column": 1, "offset": 2092 },
+              "end": { "line": 53, "column": 133, "offset": 2224 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 49, "column": 1, "offset": 1913 },
+          "end": { "line": 53, "column": 133, "offset": 2224 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">   <span class=\"token keyword\">async</span> <span class=\"token function\">preloader</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token string\">'Check'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n    <span class=\"token keyword\">await</span> <span class=\"token function\">fetch</span><span class=\"token punctuation\">(</span><span class=\"token string\">'../assets/glsl/vertex-shader.glsl'</span><span class=\"token punctuation\">)</span>\n      <span class=\"token punctuation\">.</span><span class=\"token function\">then</span><span class=\"token punctuation\">(</span>source <span class=\"token operator\">=></span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>shaderSources<span class=\"token punctuation\">.</span>vertex <span class=\"token operator\">=</span> source<span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span>\n      <span class=\"token punctuation\">.</span><span class=\"token keyword\">catch</span><span class=\"token punctuation\">(</span>error <span class=\"token operator\">=></span> console<span class=\"token punctuation\">.</span><span class=\"token function\">error</span><span class=\"token punctuation\">(</span>error<span class=\"token punctuation\">.</span>message<span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n\n    <span class=\"token keyword\">await</span> <span class=\"token function\">fetch</span><span class=\"token punctuation\">(</span><span class=\"token string\">'../assets/glsl/vertex-shader.glsl'</span><span class=\"token punctuation\">)</span>\n      <span class=\"token punctuation\">.</span><span class=\"token function\">then</span><span class=\"token punctuation\">(</span>source <span class=\"token operator\">=></span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>shaderSources<span class=\"token punctuation\">.</span>fragment <span class=\"token operator\">=</span> source<span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span>\n      <span class=\"token punctuation\">.</span><span class=\"token keyword\">catch</span><span class=\"token punctuation\">(</span>error <span class=\"token operator\">=></span> console<span class=\"token punctuation\">.</span><span class=\"token function\">error</span><span class=\"token punctuation\">(</span>error<span class=\"token punctuation\">.</span>message<span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n    <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span><span class=\"token function\">run</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n  <span class=\"token punctuation\">}</span></code></pre></div>",
+        "position": {
+          "start": { "line": 55, "column": 1, "offset": 2226 },
+          "end": { "line": 67, "column": 4, "offset": 2639 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "De waarden voor de shadersources worden vervolgens opgehaald via ",
+                    "position": {
+                      "start": { "line": 69, "column": 3, "offset": 2643 },
+                      "end": { "line": 69, "column": 68, "offset": 2708 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">preloader()</code>",
+                    "position": {
+                      "start": { "line": 69, "column": 68, "offset": 2708 },
+                      "end": { "line": 69, "column": 81, "offset": 2721 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                      "start": { "line": 69, "column": 81, "offset": 2721 },
+                      "end": { "line": 69, "column": 82, "offset": 2722 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 69, "column": 3, "offset": 2643 },
+                  "end": { "line": 69, "column": 82, "offset": 2722 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 69, "column": 1, "offset": 2641 },
+              "end": { "line": 70, "column": 1, "offset": 2723 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Dit gebeurt via ",
+                    "position": {
+                      "start": { "line": 71, "column": 3, "offset": 2726 },
+                      "end": { "line": 71, "column": 19, "offset": 2742 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">async</code>",
+                    "position": {
+                      "start": { "line": 71, "column": 19, "offset": 2742 },
+                      "end": { "line": 71, "column": 26, "offset": 2749 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " en ",
+                    "position": {
+                      "start": { "line": 71, "column": 26, "offset": 2749 },
+                      "end": { "line": 71, "column": 30, "offset": 2753 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">await</code>",
+                    "position": {
+                      "start": { "line": 71, "column": 30, "offset": 2753 },
+                      "end": { "line": 71, "column": 37, "offset": 2760 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Op deze manier wordt de informatie asynchroon ingeladen en worden errors vermeden. Wanneer de shaders beschikbaar zijn worden ze toegekend, dit gebeurt in ons ",
+                    "position": {
+                      "start": { "line": 71, "column": 37, "offset": 2760 },
+                      "end": { "line": 71, "column": 198, "offset": 2921 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">.then()</code>",
+                    "position": {
+                      "start": { "line": 71, "column": 198, "offset": 2921 },
+                      "end": { "line": 71, "column": 207, "offset": 2930 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "statement. Eventuele errors worden opgevangen in de ",
+                    "position": {
+                      "start": { "line": 71, "column": 207, "offset": 2930 },
+                      "end": { "line": 71, "column": 259, "offset": 2982 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">.catch()</code>",
+                    "position": {
+                      "start": { "line": 71, "column": 259, "offset": 2982 },
+                      "end": { "line": 71, "column": 269, "offset": 2992 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 71, "column": 3, "offset": 2726 },
+                  "end": { "line": 71, "column": 269, "offset": 2992 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 71, "column": 1, "offset": 2724 },
+              "end": { "line": 72, "column": 1, "offset": 2993 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Aan het einde van de ",
+                    "position": {
+                      "start": { "line": 73, "column": 3, "offset": 2996 },
+                      "end": { "line": 73, "column": 24, "offset": 3017 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">preloader()</code>",
+                    "position": {
+                      "start": { "line": 73, "column": 24, "offset": 3017 },
+                      "end": { "line": 73, "column": 37, "offset": 3030 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "methode komen we aan ",
+                    "position": {
+                      "start": { "line": 73, "column": 37, "offset": 3030 },
+                      "end": { "line": 73, "column": 58, "offset": 3051 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">this.run()</code>",
+                    "position": {
+                      "start": { "line": 73, "column": 58, "offset": 3051 },
+                      "end": { "line": 73, "column": 70, "offset": 3063 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Meer hierover in onderstaand codevoorbeeld.",
+                    "position": {
+                      "start": { "line": 73, "column": 70, "offset": 3063 },
+                      "end": { "line": 73, "column": 115, "offset": 3108 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 73, "column": 3, "offset": 2996 },
+                  "end": { "line": 73, "column": 115, "offset": 3108 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 73, "column": 1, "offset": 2994 },
+              "end": { "line": 73, "column": 115, "offset": 3108 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 69, "column": 1, "offset": 2641 },
+          "end": { "line": 73, "column": 115, "offset": 3108 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">  <span class=\"token function\">run</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token keyword\">new</span> <span class=\"token class-name\">Canvas</span><span class=\"token punctuation\">(</span>\n      document<span class=\"token punctuation\">.</span>body<span class=\"token punctuation\">.</span>clientWidth<span class=\"token punctuation\">,</span>\n      document<span class=\"token punctuation\">.</span>body<span class=\"token punctuation\">.</span>clientHeight<span class=\"token punctuation\">,</span>\n      <span class=\"token keyword\">this</span><span class=\"token punctuation\">.</span>shaderSources\n    <span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>\n  <span class=\"token punctuation\">}</span></code></pre></div>",
+        "position": {
+          "start": { "line": 76, "column": 1, "offset": 3111 },
+          "end": { "line": 84, "column": 4, "offset": 3249 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "We maken een nieuwe instantie van onze ",
+                    "position": {
+                      "start": { "line": 86, "column": 3, "offset": 3253 },
+                      "end": { "line": 86, "column": 42, "offset": 3292 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">Canvas</code>",
+                    "position": {
+                      "start": { "line": 86, "column": 42, "offset": 3292 },
+                      "end": { "line": 86, "column": 50, "offset": 3300 }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " klasse aan, deze wordt bovenaan ingeladen met ",
+                    "position": {
+                      "start": { "line": 86, "column": 50, "offset": 3300 },
+                      "end": { "line": 86, "column": 97, "offset": 3347 }
+                    }
+                  },
+                  {
+                    "type": "raw",
+                    "value": "<code class=\"language-text\">import Canvas from &#39;./Library/Canvas.js&#39;</code>",
+                    "position": {
+                      "start": { "line": 86, "column": 97, "offset": 3347 },
+                      "end": { "line": 86, "column": 139, "offset": 3389 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 86, "column": 3, "offset": 3253 },
+                  "end": { "line": 86, "column": 139, "offset": 3389 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 86, "column": 1, "offset": 3251 },
+              "end": { "line": 87, "column": 1, "offset": 3390 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Width en height worden gelijk gezet aan client width en client height.",
+                    "position": {
+                      "start": { "line": 88, "column": 3, "offset": 3393 },
+                      "end": { "line": 88, "column": 73, "offset": 3463 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 88, "column": 3, "offset": 3393 },
+                  "end": { "line": 88, "column": 73, "offset": 3463 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 88, "column": 1, "offset": 3391 },
+              "end": { "line": 89, "column": 1, "offset": 3464 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "p",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "De verkregen shadersources worden meegegeven.",
+                    "position": {
+                      "start": { "line": 90, "column": 3, "offset": 3467 },
+                      "end": { "line": 90, "column": 48, "offset": 3512 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 90, "column": 3, "offset": 3467 },
+                  "end": { "line": 90, "column": 48, "offset": 3512 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 90, "column": 1, "offset": 3465 },
+              "end": { "line": 90, "column": 48, "offset": 3512 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 86, "column": 1, "offset": 3251 },
+          "end": { "line": 90, "column": 48, "offset": 3512 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<br>",
+        "position": {
+          "start": { "line": 92, "column": 1, "offset": 3514 },
+          "end": { "line": 92, "column": 5, "offset": 3518 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Bekijk ook volgend artikel over de Canvas klasse",
+                "position": {
+                  "start": { "line": 94, "column": 3, "offset": 3522 },
+                  "end": { "line": 94, "column": 51, "offset": 3570 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 94, "column": 1, "offset": 3520 },
+              "end": { "line": 94, "column": 53, "offset": 3572 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 94, "column": 1, "offset": 3520 },
+          "end": { "line": 94, "column": 53, "offset": 3572 }
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 98, "column": 1, "offset": 3576 }
+    }
+  }
+}

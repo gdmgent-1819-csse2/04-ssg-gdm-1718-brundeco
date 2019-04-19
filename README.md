@@ -1,10 +1,3 @@
-## 🚀 To launch website ...
+Documentation website Computer Science and Software Engineering.
 
-  Navigate into site's directory and start it up.
-
-  ```sh
-  cd 04-ssg-gdm-1718-brundeco
-  gatsby develop
-  ```
-
-  Site will run at localhost:8000
+Hosted by GitHub Pages.

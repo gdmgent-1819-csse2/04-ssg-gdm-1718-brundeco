@@ -1,1 +1,95 @@
-{"errors":[],"warnings":[],"namedChunkGroups":{"app":{"chunks":[8,7,1],"assets":["webpack-runtime-c26f9ad330bad6ae8d1d.js","webpack-runtime-c26f9ad330bad6ae8d1d.js.map","styles.f3c05434081a7202679d.css","styles-dbaa2b463d8172bc449a.js","styles-dbaa2b463d8172bc449a.js.map","app-80875c1d36a010395884.js","app-80875c1d36a010395884.js.map"],"children":{},"childAssets":{}},"component---node-modules-gatsby-plugin-offline-app-shell-js":{"chunks":[2],"assets":["component---node-modules-gatsby-plugin-offline-app-shell-js-e7e71198334f1766f792.js","component---node-modules-gatsby-plugin-offline-app-shell-js-e7e71198334f1766f792.js.map"],"children":{},"childAssets":{}},"component---src-templates-blog-post-js":{"chunks":[0,5],"assets":["0-e30b9efe3379ee3ff1a0.js","0-e30b9efe3379ee3ff1a0.js.map","component---src-templates-blog-post-js-98dcf26a083591a3b3ff.js","component---src-templates-blog-post-js-98dcf26a083591a3b3ff.js.map"],"children":{},"childAssets":{}},"component---src-pages-404-js":{"chunks":[0,3],"assets":["0-e30b9efe3379ee3ff1a0.js","0-e30b9efe3379ee3ff1a0.js.map","component---src-pages-404-js-bac37edae6059e7ac95a.js","component---src-pages-404-js-bac37edae6059e7ac95a.js.map"],"children":{},"childAssets":{}},"component---src-pages-index-js":{"chunks":[0,4],"assets":["0-e30b9efe3379ee3ff1a0.js","0-e30b9efe3379ee3ff1a0.js.map","component---src-pages-index-js-58a1baeea903af3c6fe1.js","component---src-pages-index-js-58a1baeea903af3c6fe1.js.map"],"children":{},"childAssets":{}},"pages-manifest":{"chunks":[6],"assets":["pages-manifest-ecb2f375b5852895e901.js","pages-manifest-ecb2f375b5852895e901.js.map"],"children":{},"childAssets":{}}},"assetsByChunkName":{"app":["webpack-runtime-c26f9ad330bad6ae8d1d.js","styles.f3c05434081a7202679d.css","styles-dbaa2b463d8172bc449a.js","app-80875c1d36a010395884.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["component---node-modules-gatsby-plugin-offline-app-shell-js-e7e71198334f1766f792.js"],"component---src-templates-blog-post-js":["0-e30b9efe3379ee3ff1a0.js","component---src-templates-blog-post-js-98dcf26a083591a3b3ff.js"],"component---src-pages-404-js":["0-e30b9efe3379ee3ff1a0.js","component---src-pages-404-js-bac37edae6059e7ac95a.js"],"component---src-pages-index-js":["0-e30b9efe3379ee3ff1a0.js","component---src-pages-index-js-58a1baeea903af3c6fe1.js"],"pages-manifest":["pages-manifest-ecb2f375b5852895e901.js"]}}
+{
+  "errors": [],
+  "warnings": [],
+  "namedChunkGroups": {
+    "app": {
+      "chunks": [8, 7, 1],
+      "assets": [
+        "webpack-runtime-b91c76b46e169c70a8ac.js",
+        "webpack-runtime-b91c76b46e169c70a8ac.js.map",
+        "styles.1dcdc59f7117558f46e5.css",
+        "styles-8c67508fa47150d3da7a.js",
+        "styles-8c67508fa47150d3da7a.js.map",
+        "app-fcb06d59fde5bccc8e64.js",
+        "app-fcb06d59fde5bccc8e64.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": {
+      "chunks": [2],
+      "assets": [
+        "component---node-modules-gatsby-plugin-offline-app-shell-js-7eeb79eacb51da2232e1.js",
+        "component---node-modules-gatsby-plugin-offline-app-shell-js-7eeb79eacb51da2232e1.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-templates-blog-post-js": {
+      "chunks": [0, 5],
+      "assets": [
+        "0-18d32cdc99e3131a0cd8.js",
+        "0-18d32cdc99e3131a0cd8.js.map",
+        "component---src-templates-blog-post-js-5bbbe6219357f00c7a96.js",
+        "component---src-templates-blog-post-js-5bbbe6219357f00c7a96.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "chunks": [0, 3],
+      "assets": [
+        "0-18d32cdc99e3131a0cd8.js",
+        "0-18d32cdc99e3131a0cd8.js.map",
+        "component---src-pages-404-js-b20789500188fd30c345.js",
+        "component---src-pages-404-js-b20789500188fd30c345.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "chunks": [0, 4],
+      "assets": [
+        "0-18d32cdc99e3131a0cd8.js",
+        "0-18d32cdc99e3131a0cd8.js.map",
+        "component---src-pages-index-js-80b955881ac084559aae.js",
+        "component---src-pages-index-js-80b955881ac084559aae.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-manifest": {
+      "chunks": [6],
+      "assets": [
+        "pages-manifest-b3bdc8e5f490b5b14506.js",
+        "pages-manifest-b3bdc8e5f490b5b14506.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "assetsByChunkName": {
+    "app": [
+      "webpack-runtime-b91c76b46e169c70a8ac.js",
+      "styles.1dcdc59f7117558f46e5.css",
+      "styles-8c67508fa47150d3da7a.js",
+      "app-fcb06d59fde5bccc8e64.js"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-7eeb79eacb51da2232e1.js"
+    ],
+    "component---src-templates-blog-post-js": [
+      "0-18d32cdc99e3131a0cd8.js",
+      "component---src-templates-blog-post-js-5bbbe6219357f00c7a96.js"
+    ],
+    "component---src-pages-404-js": [
+      "0-18d32cdc99e3131a0cd8.js",
+      "component---src-pages-404-js-b20789500188fd30c345.js"
+    ],
+    "component---src-pages-index-js": [
+      "0-18d32cdc99e3131a0cd8.js",
+      "component---src-pages-index-js-80b955881ac084559aae.js"
+    ],
+    "pages-manifest": ["pages-manifest-b3bdc8e5f490b5b14506.js"]
+  }
+}
