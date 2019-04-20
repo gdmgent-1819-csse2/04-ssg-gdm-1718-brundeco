@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/reponame",
+  pathPrefix: "/04-ssg-gdm-1718-brundeco",
   siteMetadata: {
     title: `Computer Science and Software Engineering`,
     description: `Static site generator • Documenteren • Gebruik van markdown`,
