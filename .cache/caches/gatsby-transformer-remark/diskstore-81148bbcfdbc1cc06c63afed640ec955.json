@@ -1,0 +1,915 @@
+{
+  "expireTime": 9007200810502713000,
+  "key": "transformer-remark-markdown-ast-dacb6a61e0325040d734224d3f093470-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypantsgatsby-remark-reading-time-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "heading",
+        "depth": 3,
+        "children": [
+          {
+            "type": "text",
+            "value": "Structuur van ons WebGL project",
+            "position": {
+              "start": { "line": 2, "column": 4, "offset": 4 },
+              "end": { "line": 2, "column": 35, "offset": 35 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 35, "offset": 35 },
+          "indent": []
+        }
+      },
+      {
+        "type": "html",
+        "lang": null,
+        "value": "<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">    ├── index.html\n    ├── assets\n          ├── glsl\n                ├── fragment-shader.glsl\n                ├── vertex-shader.glsl\n          ├── js\n                ├── Library             --&gt; contains all the calculations\n                      ├── Canvas.js\n                ├── Tests\n                      ├── library       --&gt; contains all the test calculations\n                      ├── Tests.js\n                ├── Application.js\n                ├── main.js</code></pre></div>",
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 37 },
+          "end": { "line": 18, "column": 4, "offset": 507 },
+          "indent": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "loose": true,
+        "children": [
+          {
+            "type": "listItem",
+            "loose": true,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "In de root van ons project bevind zich de ",
+                    "position": {
+                      "start": { "line": 20, "column": 3, "offset": 511 },
+                      "end": { "line": 20, "column": 45, "offset": 553 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">index.html</code>",
+                    "position": {
+                      "start": { "line": 20, "column": 45, "offset": 553 },
+                      "end": { "line": 20, "column": 57, "offset": 565 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " file en de ",
+                    "position": {
+                      "start": { "line": 20, "column": 57, "offset": 565 },
+                      "end": { "line": 20, "column": 69, "offset": 577 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">assets</code>",
+                    "position": {
+                      "start": { "line": 20, "column": 69, "offset": 577 },
+                      "end": { "line": 20, "column": 77, "offset": 585 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " folder.",
+                    "position": {
+                      "start": { "line": 20, "column": 77, "offset": 585 },
+                      "end": { "line": 20, "column": 85, "offset": 593 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 20, "column": 3, "offset": 511 },
+                  "end": { "line": 20, "column": 85, "offset": 593 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 20, "column": 1, "offset": 509 },
+              "end": { "line": 21, "column": 1, "offset": 594 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "loose": true,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Binnen de ",
+                    "position": {
+                      "start": { "line": 22, "column": 3, "offset": 597 },
+                      "end": { "line": 22, "column": 13, "offset": 607 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">assets</code>",
+                    "position": {
+                      "start": { "line": 22, "column": 13, "offset": 607 },
+                      "end": { "line": 22, "column": 21, "offset": 615 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " folder vinden we de folders ",
+                    "position": {
+                      "start": { "line": 22, "column": 21, "offset": 615 },
+                      "end": { "line": 22, "column": 50, "offset": 644 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">glsl</code>",
+                    "position": {
+                      "start": { "line": 22, "column": 50, "offset": 644 },
+                      "end": { "line": 22, "column": 56, "offset": 650 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " en ",
+                    "position": {
+                      "start": { "line": 22, "column": 56, "offset": 650 },
+                      "end": { "line": 22, "column": 60, "offset": 654 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">js</code>",
+                    "position": {
+                      "start": { "line": 22, "column": 60, "offset": 654 },
+                      "end": { "line": 22, "column": 64, "offset": 658 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " terug.",
+                    "position": {
+                      "start": { "line": 22, "column": 64, "offset": 658 },
+                      "end": { "line": 22, "column": 71, "offset": 665 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 22, "column": 3, "offset": 597 },
+                  "end": { "line": 22, "column": 71, "offset": 665 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 22, "column": 1, "offset": 595 },
+              "end": { "line": 23, "column": 1, "offset": 666 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "loose": true,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "De ",
+                    "position": {
+                      "start": { "line": 24, "column": 3, "offset": 669 },
+                      "end": { "line": 24, "column": 6, "offset": 672 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">glsl</code>",
+                    "position": {
+                      "start": { "line": 24, "column": 6, "offset": 672 },
+                      "end": { "line": 24, "column": 12, "offset": 678 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " staat voor ",
+                    "position": {
+                      "start": { "line": 24, "column": 12, "offset": 678 },
+                      "end": { "line": 24, "column": 24, "offset": 690 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Graphics Library Shading Language",
+                        "position": {
+                          "start": { "line": 24, "column": 26, "offset": 692 },
+                          "end": { "line": 24, "column": 59, "offset": 725 },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 24, "column": 24, "offset": 690 },
+                      "end": { "line": 24, "column": 61, "offset": 727 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Deze folder bevat 2 files, 1 voor de fragment- en 1 voor de vertexshader.",
+                    "position": {
+                      "start": { "line": 24, "column": 61, "offset": 727 },
+                      "end": { "line": 24, "column": 136, "offset": 802 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 24, "column": 3, "offset": 669 },
+                  "end": { "line": 24, "column": 136, "offset": 802 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 24, "column": 1, "offset": 667 },
+              "end": { "line": 25, "column": 1, "offset": 803 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "loose": true,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Binnen onze ",
+                    "position": {
+                      "start": { "line": 26, "column": 3, "offset": 806 },
+                      "end": { "line": 26, "column": 15, "offset": 818 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">js</code>",
+                    "position": {
+                      "start": { "line": 26, "column": 15, "offset": 818 },
+                      "end": { "line": 26, "column": 19, "offset": 822 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " map vinden we:",
+                    "position": {
+                      "start": { "line": 26, "column": 19, "offset": 822 },
+                      "end": { "line": 26, "column": 34, "offset": 837 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 26, "column": 3, "offset": 806 },
+                  "end": { "line": 26, "column": 34, "offset": 837 },
+                  "indent": []
+                }
+              },
+              {
+                "type": "list",
+                "ordered": false,
+                "start": null,
+                "loose": false,
+                "children": [
+                  {
+                    "type": "listItem",
+                    "loose": false,
+                    "checked": null,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "html",
+                            "value": "<code class=\"language-text\">main.js</code>",
+                            "position": {
+                              "start": {
+                                "line": 27,
+                                "column": 7,
+                                "offset": 844
+                              },
+                              "end": {
+                                "line": 27,
+                                "column": 16,
+                                "offset": 853
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " waarin we een nieuwe ",
+                            "position": {
+                              "start": {
+                                "line": 27,
+                                "column": 16,
+                                "offset": 853
+                              },
+                              "end": {
+                                "line": 27,
+                                "column": 38,
+                                "offset": 875
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "html",
+                            "value": "<code class=\"language-text\">Application</code>",
+                            "position": {
+                              "start": {
+                                "line": 27,
+                                "column": 38,
+                                "offset": 875
+                              },
+                              "end": {
+                                "line": 27,
+                                "column": 51,
+                                "offset": 888
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " instantiëren na het laden van de DOM.",
+                            "position": {
+                              "start": {
+                                "line": 27,
+                                "column": 51,
+                                "offset": 888
+                              },
+                              "end": {
+                                "line": 27,
+                                "column": 89,
+                                "offset": 926
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 27, "column": 7, "offset": 844 },
+                          "end": { "line": 27, "column": 89, "offset": 926 },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 27, "column": 5, "offset": 842 },
+                      "end": { "line": 27, "column": 89, "offset": 926 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "listItem",
+                    "loose": false,
+                    "checked": null,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "html",
+                            "value": "<code class=\"language-text\">Application.js</code>",
+                            "position": {
+                              "start": {
+                                "line": 28,
+                                "column": 7,
+                                "offset": 933
+                              },
+                              "end": {
+                                "line": 28,
+                                "column": 23,
+                                "offset": 949
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " waarin we de shaders asynchroon gaan inladen.",
+                            "position": {
+                              "start": {
+                                "line": 28,
+                                "column": 23,
+                                "offset": 949
+                              },
+                              "end": {
+                                "line": 28,
+                                "column": 69,
+                                "offset": 995
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 28, "column": 7, "offset": 933 },
+                          "end": { "line": 28, "column": 69, "offset": 995 },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 28, "column": 5, "offset": 931 },
+                      "end": { "line": 28, "column": 69, "offset": 995 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "listItem",
+                    "loose": false,
+                    "checked": null,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "de folder ",
+                            "position": {
+                              "start": {
+                                "line": 29,
+                                "column": 7,
+                                "offset": 1002
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 17,
+                                "offset": 1012
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "html",
+                            "value": "<code class=\"language-text\">Tests</code>",
+                            "position": {
+                              "start": {
+                                "line": 29,
+                                "column": 17,
+                                "offset": 1012
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 24,
+                                "offset": 1019
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " die alle matrix en vector berekeningen bevat, en tests zal uitvoeren op onze code.",
+                            "position": {
+                              "start": {
+                                "line": 29,
+                                "column": 24,
+                                "offset": 1019
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 107,
+                                "offset": 1102
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 29, "column": 7, "offset": 1002 },
+                          "end": { "line": 29, "column": 107, "offset": 1102 },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 29, "column": 5, "offset": 1000 },
+                      "end": { "line": 29, "column": 107, "offset": 1102 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "listItem",
+                    "loose": false,
+                    "checked": null,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "de folder ",
+                            "position": {
+                              "start": {
+                                "line": 30,
+                                "column": 7,
+                                "offset": 1109
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 17,
+                                "offset": 1119
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "html",
+                            "value": "<code class=\"language-text\">Library</code>",
+                            "position": {
+                              "start": {
+                                "line": 30,
+                                "column": 17,
+                                "offset": 1119
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 26,
+                                "offset": 1128
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " waarin we ",
+                            "position": {
+                              "start": {
+                                "line": 30,
+                                "column": 26,
+                                "offset": 1128
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 37,
+                                "offset": 1139
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "html",
+                            "value": "<code class=\"language-text\">Canvas.js</code>",
+                            "position": {
+                              "start": {
+                                "line": 30,
+                                "column": 37,
+                                "offset": 1139
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 48,
+                                "offset": 1150
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " terug vinden. Hierin worden data mbt ",
+                            "position": {
+                              "start": {
+                                "line": 30,
+                                "column": 48,
+                                "offset": 1150
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 86,
+                                "offset": 1188
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "html",
+                            "value": "<code class=\"language-text\">canvas, shaders, buffers</code>",
+                            "position": {
+                              "start": {
+                                "line": 30,
+                                "column": 86,
+                                "offset": 1188
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 112,
+                                "offset": 1214
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "value": " verwerkt.",
+                            "position": {
+                              "start": {
+                                "line": 30,
+                                "column": 112,
+                                "offset": 1214
+                              },
+                              "end": {
+                                "line": 30,
+                                "column": 122,
+                                "offset": 1224
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": { "line": 30, "column": 7, "offset": 1109 },
+                          "end": { "line": 30, "column": 122, "offset": 1224 },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": { "line": 30, "column": 5, "offset": 1107 },
+                      "end": { "line": 30, "column": 122, "offset": 1224 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 27, "column": 5, "offset": 842 },
+                  "end": { "line": 30, "column": 122, "offset": 1224 },
+                  "indent": [5, 5, 5]
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 26, "column": 1, "offset": 804 },
+              "end": { "line": 31, "column": 1, "offset": 1225 },
+              "indent": [1, 1, 1, 1, 1]
+            }
+          },
+          {
+            "type": "listItem",
+            "loose": true,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "In de ",
+                    "position": {
+                      "start": { "line": 32, "column": 3, "offset": 1228 },
+                      "end": { "line": 32, "column": 9, "offset": 1234 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">index.html</code>",
+                    "position": {
+                      "start": { "line": 32, "column": 9, "offset": 1234 },
+                      "end": { "line": 32, "column": 21, "offset": 1246 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " wordt de ",
+                    "position": {
+                      "start": { "line": 32, "column": 21, "offset": 1246 },
+                      "end": { "line": 32, "column": 31, "offset": 1256 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">main.js</code>",
+                    "position": {
+                      "start": { "line": 32, "column": 31, "offset": 1256 },
+                      "end": { "line": 32, "column": 40, "offset": 1265 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " ingeladen en van daaruit spreken we dan de ",
+                    "position": {
+                      "start": { "line": 32, "column": 40, "offset": 1265 },
+                      "end": { "line": 32, "column": 84, "offset": 1309 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">Application</code>",
+                    "position": {
+                      "start": { "line": 32, "column": 84, "offset": 1309 },
+                      "end": { "line": 32, "column": 97, "offset": 1322 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " klasse aan.",
+                    "position": {
+                      "start": { "line": 32, "column": 97, "offset": 1322 },
+                      "end": { "line": 32, "column": 109, "offset": 1334 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 32, "column": 3, "offset": 1228 },
+                  "end": { "line": 32, "column": 109, "offset": 1334 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 32, "column": 1, "offset": 1226 },
+              "end": { "line": 33, "column": 1, "offset": 1335 },
+              "indent": [1]
+            }
+          },
+          {
+            "type": "listItem",
+            "loose": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Binnen ",
+                    "position": {
+                      "start": { "line": 34, "column": 3, "offset": 1338 },
+                      "end": { "line": 34, "column": 10, "offset": 1345 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">Application</code>",
+                    "position": {
+                      "start": { "line": 34, "column": 10, "offset": 1345 },
+                      "end": { "line": 34, "column": 23, "offset": 1358 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " worden dan ",
+                    "position": {
+                      "start": { "line": 34, "column": 23, "offset": 1358 },
+                      "end": { "line": 34, "column": 35, "offset": 1370 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">Canvas</code>",
+                    "position": {
+                      "start": { "line": 34, "column": 35, "offset": 1370 },
+                      "end": { "line": 34, "column": 43, "offset": 1378 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " en ",
+                    "position": {
+                      "start": { "line": 34, "column": 43, "offset": 1378 },
+                      "end": { "line": 34, "column": 47, "offset": 1382 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "html",
+                    "value": "<code class=\"language-text\">Tests</code>",
+                    "position": {
+                      "start": { "line": 34, "column": 47, "offset": 1382 },
+                      "end": { "line": 34, "column": 54, "offset": 1389 },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " geïmporteerd.",
+                    "position": {
+                      "start": { "line": 34, "column": 54, "offset": 1389 },
+                      "end": { "line": 34, "column": 68, "offset": 1403 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 34, "column": 3, "offset": 1338 },
+                  "end": { "line": 34, "column": 68, "offset": 1403 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 34, "column": 1, "offset": 1336 },
+              "end": { "line": 34, "column": 68, "offset": 1403 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 20, "column": 1, "offset": 509 },
+          "end": { "line": 34, "column": 68, "offset": 1403 },
+          "indent": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        }
+      },
+      {
+        "type": "html",
+        "value": "<br>",
+        "position": {
+          "start": { "line": 36, "column": 1, "offset": 1405 },
+          "end": { "line": 36, "column": 5, "offset": 1409 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "strong",
+            "children": [
+              {
+                "type": "text",
+                "value": "Bekijk een volgend artikel voor meer duidelijkheid omtrent de werking van WebGL",
+                "position": {
+                  "start": { "line": 38, "column": 3, "offset": 1413 },
+                  "end": { "line": 38, "column": 82, "offset": 1492 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 38, "column": 1, "offset": 1411 },
+              "end": { "line": 38, "column": 84, "offset": 1494 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 38, "column": 1, "offset": 1411 },
+          "end": { "line": 38, "column": 84, "offset": 1494 },
+          "indent": []
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 40, "column": 1, "offset": 1496 }
+    }
+  }
+}

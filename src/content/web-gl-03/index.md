@@ -5,12 +5,6 @@ date: "2019-04-17"
 
 In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
 
-In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
-
-In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
-
-In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
-
 ```js
 export default class Canvas {
   constructor(width, height, shaderSources) {
@@ -64,12 +58,12 @@ window.addEventListener(
 
 - Na elke seconde wordt updateCanvasHandler uitgevoerd.
 
-- Hierin worden uren, minuten en seconden opgehaald en toegekend en de verschillende wijzers
+- Hierin worden uren, minuten en seconden opgehaald en de posities toegekend aan de verschillende wijzers
 
 - In onderstaand voorbeeld de code die dit verduidelijkt.
 
 ```js
-  updateCanvasHandler(event) {
+ updateCanvasHandler(event) {
     console.log("Canvas updated");
     this.clearData();
 
@@ -78,10 +72,7 @@ window.addEventListener(
     this.data.colors.push(...this.colors.white);
 
     const colors = ["green", "blue", "cyan", "magenta", "yellow"];
-
-    // Initial drawing on the canvas
     {
-      //calculate angle
       let d, h, m, s;
       d = new Date();
 
@@ -97,57 +88,61 @@ window.addEventListener(
         "Seconds: ",
         s + "°"
       );
-
-      //Center of clock
-      let clockCenter = new Vector2(0, 0);
-      this.data.positions.push(clockCenter.x, clockCenter.y);
-      this.data.colors.push(
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        0
-      );
-
-      //hours
-      const hours = new Vector2(0, 0.3);
-      hours.rot(-h);
-      this.data.positions.push(hours.x, hours.y);
-      this.data.colors.push(
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        0
-      );
-
-      //minutes
-      const minutes = new Vector2(0, 0.4);
-      minutes.rot(-m);
-      this.data.positions.push(minutes.x, minutes.y);
-      this.data.colors.push(
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        0
-      );
-
-      //seconds
-      let seconds = new Vector2(0, 0.5);
-      seconds.rot(-s);
-      this.data.positions.push(seconds.x, seconds.y);
-      this.data.colors.push(
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        Math.round(Math.random() * 255),
-        0
-      );
-
-      // White point center
-      this.data.positions.push(0, 0);
-      this.data.colors.push(...this.colors.white);
     }
-    this.drawScene();
   }
 ```
+
+- Uur wordt opgehaald en de hoek wordt berekend
+
+```js
+let clockCenter = new Vector2(0, 0);
+this.data.positions.push(clockCenter.x, clockCenter.y);
+this.data.colors.push(
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  0
+);
+
+//hours
+const hours = new Vector2(0, 0.3);
+hours.rot(-h);
+this.data.positions.push(hours.x, hours.y);
+this.data.colors.push(
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  0
+);
+
+//minutes
+const minutes = new Vector2(0, 0.4);
+minutes.rot(-m);
+this.data.positions.push(minutes.x, minutes.y);
+this.data.colors.push(
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  0
+);
+
+//seconds
+let seconds = new Vector2(0, 0.5);
+seconds.rot(-s);
+this.data.positions.push(seconds.x, seconds.y);
+this.data.colors.push(
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  Math.round(Math.random() * 255),
+  0
+);
+
+// White point center
+this.data.positions.push(0, 0);
+this.data.colors.push(...this.colors.white);
+```
+
+- Nieuwe vector wordt gemaakt voor **uren**, **minuten**, **seconden** en **klok center**
 
 ```js
  run() {
