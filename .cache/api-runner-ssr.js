@@ -17,7 +17,7 @@ var plugins = [
       plugins: [],
       name: "gatsby-blog-starter",
       short_name: "starter",
-      start_url: "/04-ssg-gdm-1718-brundeco/",
+      start_url: "/",
       background_color: "#663399",
       theme_color: "#663399",
       display: "minimal-ui",

@@ -1,32 +1,38 @@
 ---
-title: 'WebGL 03 • Canvas klasse'
-date: '2019-04-17'
+title: "WebGL 03 • Canvas klasse"
+date: "2019-04-17"
 ---
+
+In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
+
+In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
+
+In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
 
 In het vorige deel waren we aangekomen bij het instantiëren van onze `Canvas klasse`. In dit deel meer uitleg over de werking en structuur van deze klasse. Laat ons een kijkje nemen naar het eerste deel.
 
 ```js
 export default class Canvas {
-    constructor(width, height, shaderSources) {
-        this.width = width;
-        this.height = height;
-        this.shaderSources = shaderSources;
+  constructor(width, height, shaderSources) {
+    this.width = width;
+    this.height = height;
+    this.shaderSources = shaderSources;
 
-        this.colors = {
-            black: [0, 0, 0, 0],
-            blue: [0, 0, 255, 0],
-            cyan: [0, 255, 255, 0],
-            green: [0, 255, 0, 0],
-            magenta: [255, 0, 255, 0],
-            red: [255, 0, 0, 0],
-            white: [255, 255, 255, 0],
-            yellow: [255, 255, 0, 0]
-        };
-        this.data = {
-            colors: [],
-            positions: [],
-        };
-    }
+    this.colors = {
+      black: [0, 0, 0, 0],
+      blue: [0, 0, 255, 0],
+      cyan: [0, 255, 255, 0],
+      green: [0, 255, 0, 0],
+      magenta: [255, 0, 255, 0],
+      red: [255, 0, 0, 0],
+      white: [255, 255, 255, 0],
+      yellow: [255, 255, 0, 0]
+    };
+    this.data = {
+      colors: [],
+      positions: []
+    };
+  }
 }
 ```
 
@@ -35,23 +41,23 @@ export default class Canvas {
 - Vervolgens declareren we 8 verschillende kleuren binnen een `colors` object.
 
 - We maken daarna binnen `data` 2 verschillende arrays aan:
-    * Eén voor kleuren
-    * Eén voor de wijzerposities
+  - Eén voor kleuren
+  - Eén voor de wijzerposities
 
 ```js
 window.addEventListener(
-      "updateCanvas",
-      event => {
-        this.updateCanvasHandler(event);
+  "updateCanvas",
+  event => {
+    this.updateCanvasHandler(event);
 
-        //update every second
-        setInterval(() => {
-          this.updateCanvasHandler(event);
-        }, 1000);
-        console.log("Seconds check");
-      },
-      false
-    );
+    //update every second
+    setInterval(() => {
+      this.updateCanvasHandler(event);
+    }, 1000);
+    console.log("Seconds check");
+  },
+  false
+);
 ```
 
 - Vervolgens voegen we een eventlistener toe.
@@ -142,7 +148,6 @@ window.addEventListener(
     this.drawScene();
   }
 ```
-
 
 ```js
  run() {
