@@ -1,6 +1,6 @@
 ---
-title: 'WebGL • Vertex & fragment shaders'
-date: '2019-04-16'
+title: "WebGL 04 • Vertex & fragment shaders"
+date: "2019-04-16"
 ---
 
 ###Het verschil tussen beide.
@@ -51,4 +51,3 @@ void main() {
 2. Textures: data van pixels/texels
 
 3. Varyings: gegeven afkomstig van de vertexshader en geïnterpoleerd
-

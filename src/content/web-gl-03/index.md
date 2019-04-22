@@ -142,36 +142,8 @@ this.data.positions.push(0, 0);
 this.data.colors.push(...this.colors.white);
 ```
 
+<br>
 - Nieuwe vector wordt gemaakt voor **uren**, **minuten**, **seconden** en **klok center**
+<br>
 
-```js
- run() {
-    try {
-      this.createCanvas();
-      this.createShaders();
-      this.createProgram();
-      this.createVertexArray();
-      // Initial drawing on the canvas
-      {
-        const v = new Vector2(0.5, 0);
-        for (let i = 0, max = 12; i < max; i++) {
-          v.rot(30);
-
-          this.data.positions.push(v.x, v.y);
-          this.data.colors.push(
-            Math.round(Math.random() * 255),
-            Math.round(Math.random() * 255),
-            Math.round(Math.random() * 255),
-            0
-          );
-        }
-        // White point center
-        this.data.positions.push(0, 0);
-        this.data.colors.push(...this.colors.white);
-      }
-      this.drawScene();
-    } catch (error) {
-      console.error(error);
-    }
-  }
-```
+> Lees in een ander artikel meer over de verschillende soorten shaders en de structuur ervan.

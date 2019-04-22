@@ -1,6 +1,6 @@
 ---
-title: 'WebGL 01 • Folder en file structuur'
-date: '2019-04-18'
+title: "WebGL 01 • Folder en file structuur"
+date: "2019-04-18"
 ---
 
 ###Structuur van ons WebGL project
@@ -28,10 +28,11 @@ date: '2019-04-18'
 - De `glsl` staat voor **Graphics Library Shading Language**. Deze folder bevat 2 files, 1 voor de fragment- en 1 voor de vertexshader.
 
 - Binnen onze `js` map vinden we:
-    - `main.js` waarin we een nieuwe `Application` instantiëren na het laden van de DOM.
-    - `Application.js` waarin we de shaders asynchroon gaan inladen.
-    - de folder `Tests` die alle matrix en vector berekeningen bevat, en tests zal uitvoeren op onze code.
-    - de folder `Library` waarin we `Canvas.js` terug vinden. Hierin worden data mbt `canvas, shaders, buffers` verwerkt.
+
+  - `main.js` waarin we een nieuwe `Application` instantiëren na het laden van de DOM.
+  - `Application.js` waarin we de shaders asynchroon gaan inladen.
+  - de folder `Tests` die alle matrix en vector berekeningen bevat, en tests zal uitvoeren op onze code.
+  - de folder `Library` waarin we `Canvas.js` terug vinden. Hierin worden data mbt `canvas, shaders, buffers` verwerkt.
 
 - In de `index.html` wordt de `main.js` ingeladen en van daaruit spreken we dan de `Application` klasse aan.
 
@@ -40,4 +41,3 @@ date: '2019-04-18'
 <br>
 
 **Bekijk een volgend artikel voor meer duidelijkheid omtrent de werking van WebGL**
-

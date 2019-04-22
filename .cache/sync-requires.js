@@ -4,14 +4,14 @@ const { hot } = require("react-hot-loader/root");
 const preferDefault = m => (m && m.default) || m;
 
 exports.components = {
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(
+    preferDefault(
+      require("/Users/brunodecoene/Documents/GitHub/04-ssg-gdm-1718-brundeco/node_modules/gatsby-plugin-offline/app-shell.js")
+    )
+  ),
   "component---src-templates-blog-post-js": hot(
     preferDefault(
       require("/Users/brunodecoene/Documents/GitHub/04-ssg-gdm-1718-brundeco/src/templates/blog-post.js")
-    )
-  ),
-  "component---cache-dev-404-page-js": hot(
-    preferDefault(
-      require("/Users/brunodecoene/Documents/GitHub/04-ssg-gdm-1718-brundeco/.cache/dev-404-page.js")
     )
   ),
   "component---src-pages-404-js": hot(
